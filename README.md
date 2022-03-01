@@ -1,2 +1,2 @@
 # JadWeb
-Website buat jadwak
+Website buat jadwal
