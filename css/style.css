@@ -42,6 +42,7 @@ header {
 /**************************************************************** BODY ****************************************************************/
 body {
     background-color: white;
+    position: relative;
 }
 
 /****************************** KONTEN ******************************/
@@ -51,7 +52,13 @@ body {
     flex-direction: column;
     width: 50%;
     margin: 0 auto;
-    height: 720px;
+    height: 1280px;
+}
+
+@media(max-width: 1280px) {
+    .container {
+        width: 100%;
+    }
 }
 
 .judul {
