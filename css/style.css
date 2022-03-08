@@ -68,7 +68,7 @@ header .hari {
 /* MENU ICON */
 header .menu-icon {
     cursor: pointer;
-    display: inline-block;
+    display: block;
     float: right;
     padding: 28px 20px;
     position: relative;
@@ -125,7 +125,7 @@ header .menu-btn:checked ~ .menu-icon .navicon:after {
 }
 
 header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after, {
+header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
 
